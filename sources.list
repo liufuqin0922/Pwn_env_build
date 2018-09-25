@@ -48,6 +48,6 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
 # deb-src http://security.ubuntu.com/ubuntu xenial-security universe
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
-deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
+# deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
 # deb-src [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
 # deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse
