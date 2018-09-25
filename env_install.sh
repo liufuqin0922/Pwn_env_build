@@ -1,13 +1,13 @@
 # modify apt source
-mv /etc/apt/sources.list  /etc/apt/sources.list.save
-cp sources.list /etc/apt/sources.list
+sudo mv /etc/apt/sources.list  /etc/apt/sources.list.save
+sudo cp sources.list /etc/apt/sources.list
 
 # into home dir
 cd ~
 
 sudo apt update
 sudo apt -y install zsh
-sudo apt -y install python-pip git ruby
+sudo apt -y install python-pip git ruby vim
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
