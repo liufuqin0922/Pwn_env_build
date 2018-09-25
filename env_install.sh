@@ -9,6 +9,10 @@ sudo apt update
 sudo apt -y install zsh
 sudo apt -y install python-pip git ruby vim curl ipython
 
+#install 32bit runtime library
+sudo apt install g++-multilib libc6-dev-i386
+
+
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # chsh -s /bin/zsh
