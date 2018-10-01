@@ -3,7 +3,7 @@
 
 
 usage: \
-&nbsp;	git clone https://github.com/chensem/Pwn_env_build.git \
-&nbsp;	cd Pwn_env_build \
-&nbsp;	./env_install.sh 
+&nbsp;&nbsp;	git clone https://github.com/chensem/Pwn_env_build.git \
+&nbsp;&nbsp;	cd Pwn_env_build \
+&nbsp;&nbsp;	./env_install.sh 
 	
