@@ -35,6 +35,7 @@ sudo pip2 install pwntools
 
 
 # install LibcSearcher
+cd ~
 git clone https://github.com/lieanu/libc.git
 cd libc
 sudo python setup.py develop
