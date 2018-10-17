@@ -31,7 +31,7 @@ cd pwndbg
 ./setup.sh
 
 # install pwntools
-sudo pip2 install pwntools
+sudo pip2 install pwntools -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 
 
 # install LibcSearcher
