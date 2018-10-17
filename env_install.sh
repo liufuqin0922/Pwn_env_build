@@ -58,6 +58,7 @@ sudo gem install one_gadget
 
 # install proxychains
 git clone https://github.com/rofl0r/proxychains-ng
+cd proxychains-ng
 ./configure --prefix=/usr --sysconfdir=/etc
 sudo make 
 sudo make install
