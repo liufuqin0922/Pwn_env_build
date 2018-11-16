@@ -3,8 +3,9 @@
 
 ```
 usage: 
-	git clone https://github.com/chensem/Pwn_env_build.git 
-	cd Pwn_env_build 
-	./env_install.sh 
+
+git clone https://github.com/chensem/Pwn_env_build.git 
+cd Pwn_env_build 
+./env_install.sh 
 ```
 	
